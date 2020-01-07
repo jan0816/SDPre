@@ -40,6 +40,6 @@ public class VariableChangeShortcuts {
       i = 5;
 
     System.out.println( "i: " + i );
-      i++; //Not sure how to get the value to reflect 10 using only.
+      i++; //Not sure how to get the value to reflect 10 using only ++*
  }
 }
