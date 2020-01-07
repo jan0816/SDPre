@@ -1,7 +1,7 @@
 public class MathOperations {
   public static void main( String [] args ) {
-    int a, b, c, d, e, f, g;
-    double x, y, z;
+    int a, b, c, d, e, f, g, h;
+    double x, y, z, zz;
     String one, two, both;
 
     a = 10;
@@ -18,6 +18,8 @@ public class MathOperations {
     System.out.println( "b/2 is " + f );
     g = b % 10;
     System.out.println( "b%10 is " + g );
+    h = b-a*2;
+    System.out.println( "b-a*2 is " + h );
 
     x = 1.1;
     System.out.println( "\nx is " + x );
@@ -25,6 +27,8 @@ public class MathOperations {
     System.out.println( "x*x is " + y );
     z = b / 2;
     System.out.println( "b/2 is " + z );
+    zz = 2.3;
+    System.out.println( "\nzz is " + zz );
     System.out.println();
 
     one = "dog";
