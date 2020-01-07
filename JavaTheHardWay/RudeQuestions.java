@@ -5,7 +5,7 @@ public class RudeQuestions {
   String name;
   int age;
   double weight, income;
-
+  int minutes;
   Scanner keyboard = new Scanner(System.in);
 
   System.out.print( "Hello. What is your name? " );
@@ -24,6 +24,11 @@ public class RudeQuestions {
 
   System.out.print( "Hopefully that is " + income + " per hour" );
   System.out.println( " and not per year!" );
+
+  System.out.println( " How many minutes did this take of your day? " );
+  minutes = keyboard.nextInt();
+  System.out.print( minutes + " minutes. That's not that much! ");
+
   System.out.print( "Well, thanks for answering my rude questions, " );
   System.out.println( name + "." );
   //The program doesn't blow up for me when I enter an integer value when it's expecting a double. I imagine because it can convert.
