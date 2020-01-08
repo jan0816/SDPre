@@ -13,3 +13,4 @@ public class Objective4Lab2 {
     }
   }
 }
+//This code works to show what the expected output is supposed to say but not sure if I'm determining if string1 is equivalent to string3.
