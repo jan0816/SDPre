@@ -4,7 +4,7 @@ public class Objective6Lab3 {
     int MAX = 20;
     boolean odd,even;
 
-    System.out.println(counter);
+    System.out.println(counter + " is odd");
 
       while ( counter <= 19 ) {
           counter = counter + 1;
